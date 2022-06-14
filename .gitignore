@@ -1,7 +1,8 @@
 
 # Binaries for programs and plugins
 
-.vscode
+.vscode/
+code-library/.vscode/
 .*
 *
 !*.*
