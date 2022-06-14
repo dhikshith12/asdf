@@ -9,7 +9,7 @@ Makefile:1: *** missing separator.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 20:58:26 2022
+# Make data base, printed on Tue Jun 14 22:23:03 2022
 
 # Variables
 
@@ -22,21 +22,13 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-FONTCONFIG_PATH = /snap/alacritty/46/etc/fonts
-# environment
 SNAP_INSTANCE_KEY = 
 # environment
-XKB_CONFIG_ROOT = /snap/alacritty/46/usr/share/X11/xkb
+GJS_DEBUG_OUTPUT = stderr
 # environment
-GST_PLUGIN_SCANNER = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-plugin-scanner
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ed61c3c1-7493-4f76-9682-17b5dd75387c.sock
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-842b0ab7-291d-4418-baed-686560223d1d.sock
-# environment
-SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
-# environment
-VSCODE_CWD = /home/dhiks/dev/cp
-# environment
-WINDOWID = 6291460
+VSCODE_CWD = /home/dhiks
 # environment
 WINDOWPATH = 2
 # default
@@ -58,7 +50,7 @@ PWD = /home/dhiks/dev/cp
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /home/dhiks/snap/alacritty/46/.local/share:/home/dhiks/snap/alacritty/46:/snap/alacritty/46/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -86,15 +78,11 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-LIBGL_DRIVERS_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/dri
-# environment
-VDPAU_DRIVER_PATH = /usr/lib/x86_64-linux-gnu/vdpau/
+MFLAGS = -pqrR
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
-# environment
-MFLAGS = -pqrR
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
@@ -110,13 +98,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 12887
+VSCODE_PID = 23903
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-XDG_DATA_HOME = /home/dhiks/.local/share
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SESSION_MANAGER = local/linuxpc:@/tmp/.ICE-unix/2176,unix/linuxpc:/tmp/.ICE-unix/2176
 # automatic
@@ -140,9 +128,9 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-SHLVL = 1
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-LIBVA_DRIVERS_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/dri
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
@@ -150,7 +138,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = 0_r5gK6Plkk5CtxtEL9pxUsQRWEDVNVBGUf2sd7eld5qDhMwR6Yv
 # environment
-PATH = /usr/local/go/bin/bin:node_modules/.bin:/home/dhiks/.local/bin:/home/dhiks/bin:bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
 # default
 MAKEFILES := 
 # environment
@@ -158,21 +146,15 @@ LANGUAGE = en_IN:en
 # automatic
 ^F = $(notdir $^)
 # environment
-__EGL_VENDOR_LIBRARY_DIRS = /snap/alacritty/46/etc/glvnd/egl_vendor.d:/snap/alacritty/46/usr/share/glvnd/egl_vendor.d
-# environment
 SNAP_USER_COMMON = /home/dhiks/snap/code/common
 # environment
 SNAP = /snap/code/98
 # environment
-INVOCATION_ID = b09aad8614f34ff4af1da4e250c783a2
-# environment
-XDG_CONFIG_HOME = /home/dhiks/.config
+INVOCATION_ID = 12ce65513e0c467ea8fc87437ea1f4ee
 # environment
 SNAP_REVISION = 98
 # environment
 SNAP_REAL_HOME = /home/dhiks
-# environment
-FONTCONFIG_FILE = /snap/alacritty/46/etc/fonts/fonts.conf
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -181,14 +163,10 @@ USERNAME = dhiks
 ?F = $(notdir $?)
 # environment
 XDG_CURRENT_DESKTOP = Unity
-# environment
-ALACRITTY_LOG = /tmp/Alacritty-6282.log
 # automatic
 +F = $(notdir $+)
 # environment
 DESKTOP_SESSION = ubuntu
-# environment
-GST_PLUGIN_SYSTEM_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer-1.0
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -196,15 +174,13 @@ GNUMAKEFLAGS :=
 # environment
 LOGNAME = dhiks
 # environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2355
-# environment
-XLOCALEDIR = /snap/alacritty/46/usr/share/X11/locale
-# environment
-EDITOR = nvim
+SYSTEMD_EXEC_PID = 2202
 # environment
 DISPLAY = :1
 # environment
@@ -222,19 +198,15 @@ SNAP_CONTEXT = 0_r5gK6Plkk5CtxtEL9pxUsQRWEDVNVBGUf2sd7eld5qDhMwR6Yv
 # environment
 MANAGERPID = 1616
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6282
+GIO_LAUNCHED_DESKTOP_FILE_PID = 23852
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-COLORTERM = truecolor
-# environment
 GDK_PIXBUF_MODULE_FILE = /home/dhiks/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-GIO_MODULE_DIR = /home/dhiks/snap/alacritty/common/.cache/gio-modules
-# environment
-JOURNAL_STREAM = 8:35126
+JOURNAL_STREAM = 8:35062
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -248,8 +220,6 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-5c705e7d-1.68.0-main.sock
 # environment
-TERM = xterm-256color
-# environment
 SNAP_NAME = code
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/98/usr/share/glib-2.0/schemas
@@ -259,12 +229,8 @@ GSETTINGS_SCHEMA_DIR = /snap/code/98/usr/share/glib-2.0/schemas
 <F = $(notdir $<)
 # environment
 SNAP_VERSION = 4af164ea
-# environment
-GST_PLUGIN_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer-1.0
 # default
 SUFFIXES := 
-# environment
-XDG_CACHE_HOME = /home/dhiks/snap/alacritty/common/.cache
 # environment
 VSCODE_CLI = 1
 # environment
@@ -282,8 +248,7 @@ GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
- 
-# Load=134/1024=13%, Rehash=0, Collisions=9/147=6%
+# Load=117/1024=11%, Rehash=0, Collisions=4/130=3%
 
 # Pattern-specific Variable Values
 
@@ -291,9 +256,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66308, inode 13374862): 374 files, no impossibilities.
+# . (device 66308, inode 13374862): 375 files, no impossibilities.
 
-# 374 files, no impossibilities in 1 directories.
+# 375 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -317,6 +282,7 @@ Makefile:
 all:
 #  Command line target.
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -328,12 +294,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 379 / storage = 4384 B / avg = 11 B
-# current buf: size = 8162 B / used = 4384 B / count = 379 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 380 / storage = 4393 B / avg = 11 B
+# current buf: size = 8162 B / used = 4393 B / count = 380 / avg = 11 B
 
-# strcache performance: lookups = 383 / hit rate = 1%
+# strcache performance: lookups = 384 / hit rate = 1%
 # hash-table stats:
-# Load=379/8192=5%, Rehash=0, Collisions=9/383=2%
-# Finished Make data base on Tue Jun 14 20:58:26 2022
+# Load=380/8192=5%, Rehash=0, Collisions=9/384=2%
+# Finished Make data base on Tue Jun 14 22:23:03 2022
 
  
