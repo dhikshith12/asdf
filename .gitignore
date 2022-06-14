@@ -1,6 +1,9 @@
+/.vscode
+/code-library/.vscode
+
+
 
 # Binaries for programs and plugins
-.gitignore
 .*
 *
 !*.*
