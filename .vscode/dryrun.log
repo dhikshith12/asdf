@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/dhiks/dev/cp'
-make: Leaving directory '/home/dhiks/dev/cp'
- 
-Makefile:1: warning: NUL character seen; rest of line ignored
-Makefile:1: *** missing separator.  Stop.
-
