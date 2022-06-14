@@ -1,0 +1,339 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+Makefile:1: warning: NUL character seen; rest of line ignored
+Makefile:1: *** missing separator.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jun 14 20:58:26 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+FONTCONFIG_PATH = /snap/alacritty/46/etc/fonts
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+XKB_CONFIG_ROOT = /snap/alacritty/46/usr/share/X11/xkb
+# environment
+GST_PLUGIN_SCANNER = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-plugin-scanner
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-842b0ab7-291d-4418-baed-686560223d1d.sock
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+VSCODE_CWD = /home/dhiks/dev/cp
+# environment
+WINDOWID = 6291460
+# environment
+WINDOWPATH = 2
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/98/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/dhiks/dev/cp
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /home/dhiks/snap/alacritty/46/.local/share:/home/dhiks/snap/alacritty/46:/snap/alacritty/46/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/dhiks/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/dhiks/dev/cp
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+LIBGL_DRIVERS_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/dri
+# environment
+VDPAU_DRIVER_PATH = /usr/lib/x86_64-linux-gnu/vdpau/
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+MFLAGS = -pqrR
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 12887
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+XDG_DATA_HOME = /home/dhiks/.local/share
+# environment
+SESSION_MANAGER = local/linuxpc:@/tmp/.ICE-unix/2176,unix/linuxpc:/tmp/.ICE-unix/2176
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+LIBVA_DRIVERS_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/dri
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = 0_r5gK6Plkk5CtxtEL9pxUsQRWEDVNVBGUf2sd7eld5qDhMwR6Yv
+# environment
+PATH = /usr/local/go/bin/bin:node_modules/.bin:/home/dhiks/.local/bin:/home/dhiks/bin:bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_IN:en
+# automatic
+^F = $(notdir $^)
+# environment
+__EGL_VENDOR_LIBRARY_DIRS = /snap/alacritty/46/etc/glvnd/egl_vendor.d:/snap/alacritty/46/usr/share/glvnd/egl_vendor.d
+# environment
+SNAP_USER_COMMON = /home/dhiks/snap/code/common
+# environment
+SNAP = /snap/code/98
+# environment
+INVOCATION_ID = b09aad8614f34ff4af1da4e250c783a2
+# environment
+XDG_CONFIG_HOME = /home/dhiks/.config
+# environment
+SNAP_REVISION = 98
+# environment
+SNAP_REAL_HOME = /home/dhiks
+# environment
+FONTCONFIG_FILE = /snap/alacritty/46/etc/fonts/fonts.conf
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = dhiks
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+ALACRITTY_LOG = /tmp/Alacritty-6282.log
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+GST_PLUGIN_SYSTEM_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = dhiks
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 2355
+# environment
+XLOCALEDIR = /snap/alacritty/46/usr/share/X11/locale
+# environment
+EDITOR = nvim
+# environment
+DISPLAY = :1
+# environment
+USER = dhiks
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/98
+# environment
+SNAP_CONTEXT = 0_r5gK6Plkk5CtxtEL9pxUsQRWEDVNVBGUf2sd7eld5qDhMwR6Yv
+# environment
+MANAGERPID = 1616
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6282
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/dhiks/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+GIO_MODULE_DIR = /home/dhiks/snap/alacritty/common/.cache/gio-modules
+# environment
+JOURNAL_STREAM = 8:35126
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/dhiks
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-5c705e7d-1.68.0-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/98/usr/share/glib-2.0/schemas
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 4af164ea
+# environment
+GST_PLUGIN_PATH = /snap/alacritty/46/usr/lib/x86_64-linux-gnu/gstreamer-1.0
+# default
+SUFFIXES := 
+# environment
+XDG_CACHE_HOME = /home/dhiks/snap/alacritty/common/.cache
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+SNAP_USER_DATA = /home/dhiks/snap/code/98
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+ 
+# Load=134/1024=13%, Rehash=0, Collisions=9/147=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66308, inode 13374862): 374 files, no impossibilities.
+
+# 374 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/5=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 379 / storage = 4384 B / avg = 11 B
+# current buf: size = 8162 B / used = 4384 B / count = 379 / avg = 11 B
+
+# strcache performance: lookups = 383 / hit rate = 1%
+# hash-table stats:
+# Load=379/8192=5%, Rehash=0, Collisions=9/383=2%
+# Finished Make data base on Tue Jun 14 20:58:26 2022
+
+ 
