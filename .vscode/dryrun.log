@@ -1,0 +1,16 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dhiks/dev/cp'
+echo "Creating file: Makefile.cpp"
+Creating file: Makefile.cpp
+cp tmplt.cpp Makefile.cpp
+g++    -c -o Makefile.o Makefile.cpp
+ 
+g++    Makefile.o   -o Makefile
+ 
+rm Makefile.cpp Makefile.o
+ 
+Makefile:1: warning: NUL character seen; rest of line ignored
+Makefile:1: *** missing separator.  Stop.
+
+make: Leaving directory '/home/dhiks/dev/cp'
+ 

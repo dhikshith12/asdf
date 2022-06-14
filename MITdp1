@@ -1,0 +1,15 @@
+# we do exactly same computations in both top-down dp(recursively) or in a
+# bottom-up dp(tabluation/iterative).
+
+# in fact bottom-up approach is just a topological sorted computational order
+# in the subproblem dependency directed acyclic graph.
+
+                     --------->---------
+                     |                 |
+        fn-3 -----> fn-2------>fn-1 ---->fn
+         |                    |
+         ----------->----------
+
+# we can save storage space in bottom-up approach
+# we need constant space but linear time in linear DP.
+
