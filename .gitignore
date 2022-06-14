@@ -1,10 +1,10 @@
-.vscode
+
+# Binaries for programs and plugins
+.vscode/
 .*
 *
 !*.*
 !*/
-01knapsackdp
-# Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
