@@ -38,6 +38,7 @@ int main()
             adj[v].push_back(u);
         }
         dfs1(0,-1);
-        cout<<dp[0]<<endl;
+        for(int i=0;i<n;i++)
+            cout<<dp[i]<<" ";
     }
 }
